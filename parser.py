@@ -61,4 +61,5 @@ resultado[::2] = pares
 resultado[1::2] = impares
 
 print(resultado[:6])
+#list(map(lambda x: x.strip(), re.findall('[A-Z][a-zA-Z0-9-. ]*',texto)))
 
