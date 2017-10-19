@@ -13,8 +13,8 @@ def peticion(origen,destino):
         'nucleo' : '10',
         'i' : 's',
         'cp' : 'NO',
-        'o' : "19002",
-        'd' : "35600",
+        'o' : org,
+        'd' : dest,
         'df' : time.strftime("%Y%m%d"),
         'ho' : time.strftime("%H"),
         'hd' : '26', #Todas
